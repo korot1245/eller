@@ -1,0 +1,213 @@
+.text-center {
+    text-align: center;
+}
+
+.h2 {
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin-bottom: 60px;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+}
+
+.color__accent {
+    color: var(--accent);
+}
+
+input {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 1rem;
+    border-radius: 0;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.4);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    line-height: normal;
+    height: 2.5rem;
+    outline: none;
+    background: transparent;
+    border: 0;
+    border-bottom: 1.6px solid var(--accent-hover);
+    padding: 1.9375rem 0;
+    margin-bottom: 1.25rem;
+    font-size: .875rem;
+    color: #A5A3A3;
+    overflow: hidden;
+}
+
+input.error,
+textarea.error {
+    border-bottom: 1.6px solid #D32F2F;
+}
+
+.error-text {
+    color: #D32F2F;
+}
+
+.success {
+    color: var(--accent);
+    font-size: 19px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 2.5rem #1E1E1E inset !important;
+    -webkit-text-fill-color: #A5A3A3;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 50px var(--text-secondary) inset;
+    -webkit-text-fill-color: #999;
+}
+
+input::placeholder,
+input::-moz-placeholder {
+    background: none;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    margin: 0 0 1rem;
+    border-radius: 0;
+    font-size: .875rem;
+    padding: 1.9375rem 0;
+    background: transparent;
+    color: #A5A3A3;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1.6px solid var(--accent-hover);
+    overflow: hidden;
+    height: 5rem;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0.25rem 0;
+    padding: 0.85em 1em;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-transition: background-color, opacity 0.25s ease-out, color 0.25s ease-out;
+    transition: background-color, opacity 0.25s ease-out, color 0.25s ease-out;
+    font-family: inherit;
+    font-size: 0.9rem;
+    -webkit-appearance: none;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    background: var(--accent-hover);
+    margin: 0;
+    color: var(--text-secondary);
+}
+
+.button__form {
+    margin-top: 20px;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--accent-hover);
+    opacity: 0.8;
+}
+
+.header__button {
+    background: transparent;
+    border: 2px solid var(--text);
+    transition: all 0.3s ease;
+    opacity: 1;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.header__button:focus,
+.header__button:hover {
+    background-color: var(--accent-hover);
+    border: 2px solid var(--accent-hover);
+    opacity: 1;
+    color: var(--text-secondary);
+}
+
+.go-top {
+    transition: all 0.3s;
+    opacity: 0;
+    position: fixed;
+    visibility: hidden;
+    color: var(--text);
+    background: var(--accent-hover);
+    right: 40px;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.go-top:hover,
+.go-top:focus {
+    opacity: 0.8;
+}
+
+.go-top svg {
+    fill: #fff;
+    width: 25px;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.no-marker {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.policy {
+    font-size: 12px;
+    margin: 0;
+}
+
+.policy__subtext {
+    margin-bottom: 25px;
+}
+
+.policy__title {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.policy__text-title {
+    font-size: 20px;
+}
+
+.policy__text {
+    list-style-type: none;
+}
+
+.policy__text ol {
+    list-style-type: none;
+}
+
+.policy__text li span {
+    color: var(--accent)
+}
